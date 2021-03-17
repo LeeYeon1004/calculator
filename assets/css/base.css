@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #494949;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --boder-color: #807777;
+
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /* 10px */
+    font-family: Helvetica Neue,
+        Helvetica,
+        Arial,
+        文泉驛正黑,
+        WenQuanYi Zen Hei,
+        Hiragino Sans GB,
+        儷黑 Pro,LiHei Pro,
+        Heiti TC,微軟正黑體,
+        Microsoft JhengHei UI,
+        Microsoft JhengHei,
+        sans-serif; /* chủng chữ k có chân */
+    box-sizing: border-box;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}

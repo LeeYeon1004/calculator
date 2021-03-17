@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome - 5.15.1/css/all.min.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="note">
+            <input type="text" class="note__header" placeholder="Ghi chú">
+            <div class="note__heading">
+                <span class="note__heading-header">
+                    Một số lỗi chưa sửa được
+                </span>
+                <ul class="note__heading-list">
+                    <li class="note__header--item">
+                        <p>1. chưa phóng to thu nhỏ đc</p>
+                    </li>
+                    <li class="note__header--item">
+                        <p>2. nút ( ) vẫn đang lỗi</p>
+                    </li>
+                    
+                    <li class="note__header--item">
+                        <p>3. lỗi phép tính 2.3 - 2 = 0.2999999999999</p>
+                    </li>
+                    <li class="note__header--item">
+                        <p>4. hàng phím trên cùng chưa ấn đc</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contaner__standard">
+            <div class="header__notify">
+                <div class="header__notification">
+                    <p class="header__notify-heading">Standard</p>
+                    <i class="header__notify-icon fas fa-history"></i>
+                </div>
+                <div class="header__screen">
+                    <p class="header__screen-number">0</p>
+                </div>
+                <div class="header__screen-mode">
+                    <p class="header__screen-mode--M hover__number">MC</p>
+                    <p class="header__screen-mode--M hover__number">MR</p>
+                    <p class="header__screen-mode--M hover__number">M+</p>
+                    <p class="header__screen-mode--M hover__number">M-</p>
+                    <p class="header__screen-mode--M hover__number">MS</p>
+                </div>
+            </div>
+            <div class="number">
+                <div class="container__number">
+    
+                </div>
+                <div class="container__number">
+                    <p id="divide" class=" function__calc hover__number">
+                        <i class="fas fa-percent"></i>
+                    </p>
+                    <p id="canbachai" class=" function__calc hover__number">
+                        <i class="fas fa-square-root-alt"></i>
+                    </p>
+                    <p id="binhphuong" class=" function__calc hover__number">
+                        x
+                        <span class="index__number">2</span>
+                    </p>
+                    <p id="phanso" class=" function__calc hover__number">
+                        <span class="index__number">1</span>
+                        <span class="function__calc-separate">/</span>
+                        x
+                    </p>
+                </div>
+                <div class="container__number">
+                    <p id="daungoac" class=" function__calc hover__number">( )</p>
+                    <p class=" function__calc hover__number">C</p>
+                    <p id="delete" class=" function__calc hover__number">
+                        <i class="function__calc-weight fas fa-backspace"></i>
+                    </p>
+                    <p id="phepchia" class=" function__calc hover__number">
+                        <i  class="fas fa-divide"></i>
+                    </p>
+                </div>
+                <div class="container__number">
+                    <p class=" btn__number hover__number">7</p>
+                    <p class=" btn__number hover__number">8</p>
+                    <p class=" btn__number hover__number">9</p>
+                    <p id="phepnhan" class=" function__calc hover__number">
+                        <i  class="fas fa-times"></i>
+                    </p>
+                </div>
+                <div class="container__number">
+                    <p class=" btn__number hover__number">4</p>
+                    <p class=" btn__number hover__number">5</p>
+                    <p class=" btn__number hover__number">6</p>
+                    <p id="pheptru" class=" function__calc hover__number">
+                        <i  class="fas fa-minus"></i>
+                    </p>
+                </div>
+                <div class="container__number">
+                    <p class=" btn__number hover__number">1</p>
+                    <p class=" btn__number hover__number">2</p>
+                    <p class=" btn__number hover__number">3</p>
+                    <p  id="phepcong" class=" function__calc hover__number">
+                        <i class="fas fa-plus"></i>
+                    </p>
+                </div>
+                <div class="container__number">
+                    <p id="dautru" class=" function__calc hover__number function__calc-sum">
+                        &plusmn;
+                    </p>
+                    <p class=" btn__number-zero hover__number">0</p>
+                    <p id="daucham" class=" function__calc hover__number">
+                        <i  class="button__dots fas fa-circle"></i>
+                    </p>
+                    <p id="ketqua" class=" function__calc hover__number">
+                        <i class="fas fa-equals"></i>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        
+    
+    <script src="assets/css/main.js">
+        
+    </script>
+</body>
+</html>
